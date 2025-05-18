@@ -8,7 +8,6 @@ import { ToastProvider } from "./context/ToastContext";
 import "./index.css";
 import { setupAxiosDefaults } from "./services/api";
 
-// Set up axios defaults
 setupAxiosDefaults();
 
 ReactDOM.createRoot(document.getElementById("root")).render(
